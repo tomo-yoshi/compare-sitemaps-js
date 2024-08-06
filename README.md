@@ -137,7 +137,7 @@ gcloud functions deploy compareSitemapsJs \
   --runtime nodejs20 \
   --trigger-http \
   --allow-unauthenticated \
-  --entry-point=compareSitemap \
+  --entry-point=compareSitemaps \
   --region=us-central1 \
   --set-env-vars GITHUB_TOKEN=your-github-token
 ```
